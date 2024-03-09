@@ -1,0 +1,18 @@
+Modifying network...
+Illegal "loss percent"
+client - DEBUG - Will start client (model owner) that will connect to 4 server(s)
+client - INFO - time,f1
+client_f1_epoch - INFO - epoch,f1
+Will start 4 servers (data owners) with stdev of 1000
+Splitting dataset...
+class 0 will be split to each servers with this scheme [1327, 1930, 1388, 1355]
+class 1 will be split to each servers with this scheme [2329, 2201, 0, 1470]
+class 2 will be split to each servers with this scheme [599, 2086, 3315, 0]
+class 3 will be split to each servers with this scheme [1228, 0, 316, 4456]
+class 4 will be split to each servers with this scheme [1624, 2963, 1413, 0]
+class 5 will be split to each servers with this scheme [1056, 2468, 0, 2476]
+class 6 will be split to each servers with this scheme [2056, 0, 3361, 583]
+class 7 will be split to each servers with this scheme [1034, 1322, 2825, 819]
+class 8 will be split to each servers with this scheme [1496, 0, 1998, 2506]
+class 9 will be split to each servers with this scheme [1346, 785, 174, 3695]
+Starting servers...

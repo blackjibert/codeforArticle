@@ -1,0 +1,31 @@
+Modifying network...
+Illegal "loss percent"
+client - DEBUG - Will start client (model owner) that will connect to 4 server(s)
+client - INFO - time,f1
+client_f1_epoch - INFO - epoch,f1
+Will start 4 servers (data owners) with stdev of 1000
+Splitting dataset...
+Files already downloaded and verified
+class 0 will be split to each servers with this scheme [1077, 1680, 1138, 1105]
+class 1 will be split to each servers with this scheme [864, 614, 1571, 1951]
+class 2 will be split to each servers with this scheme [0, 2927, 2073, 0]
+class 3 will be split to each servers with this scheme [923, 2720, 0, 1357]
+class 4 will be split to each servers with this scheme [1496, 1489, 1006, 1009]
+class 5 will be split to each servers with this scheme [1865, 0, 2213, 922]
+class 6 will be split to each servers with this scheme [1900, 396, 1205, 1499]
+class 7 will be split to each servers with this scheme [1923, 3077, 0, 0]
+class 8 will be split to each servers with this scheme [1182, 1955, 502, 1361]
+class 9 will be split to each servers with this scheme [531, 1356, 1497, 1616]
+Starting servers...
+client - DEBUG - Training starts!
+/root/miniconda3/envs/torch024/lib/python3.8/site-packages/torch/jit/__init__.py:1043: TracerWarning: Output nr 1. of the traced function does not match the corresponding output of the Python function. Detailed error:
+Not within tolerance rtol=1e-05 atol=1e-05 at input[33, 6] (-2.295248508453369 vs. -2.398587226867676) and 639 other locations (100.00%)
+  _check_trace([inputs], func, check_trace_method,
+client - DEBUG - Snapshoted model at 0:00:00.031116, will evaluate soon...
+client - DEBUG - dataserver-3 1 2.316460609436035
+Files already downloaded and verified
+client - DEBUG - Evaluating the model snapshoted at 0:00:00.031116...
+client - DEBUG - dataserver-1 1 2.3477284908294678
+client - DEBUG - dataserver-2 1 2.344337224960327
+client - DEBUG - dataserver-0 1 2.3195059299468994
+client - DEBUG - Smallest epoch changed, evaluating epoch 1...
